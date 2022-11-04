@@ -1,0 +1,101 @@
+.bg-size {
+  background: url("https://wallpaperaccess.com/full/31367.jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container{
+    padding-top: 0.5cm;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 55px;
+    
+}
+.sayamars{
+    font-size: 30px;
+}
+.garis {
+    background-color: #fc0;
+    height: 4px;
+    line-height: 0;
+    margin: 21px auto 0;
+    width: 45px;}
+.garis_2 {
+    background-color: #fc0;
+    height: 4px;
+    line-height: 0;
+    margin: 21px auto 0;
+    width: 45px;}
+
+.mars:hover {
+    transform: scaleX(-1);
+}
+
+.mars {
+    margin-left: 5cm;
+    padding: 0.5cm; 
+
+}
+aside{
+    width: 30%;
+    padding-right: 8cm;
+    margin-left: 10px;
+    float: right;
+    margin-left : -5cm;
+    padding-top: 1cm;
+    font-style: bold;
+    color: white;
+}
+.teksu{
+    background: grey;
+    padding: 25px;
+    border-radius: 10px;
+}
+.teks_container2{
+    padding-top: 2cm;
+    font-size: 50px;
+    color: white;
+}
+.teks2_container2{
+    color: white;
+    text-align: center;
+    padding-left: 2cm;
+    padding-right: 2cm;
+    padding-top: 0.5cm;
+    font-style: bold;
+    
+    
+}
+.teks3_container2{
+    color: white;
+    text-align: center;
+    padding-left: 2cm;
+    padding-right: 2cm;
+    padding-top: 0.5cm;
+    font-style: bold;
+}
+.container2 h1{
+    color: aquamarine;
+}
+.ilustrasi{
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    padding: 3px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    font-style: bold;
+}

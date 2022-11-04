@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+h1.title {
+  text-align: center;
+  border: 20px;
+  border-color: black;
+  border-radius: 10px;
+}
+.item {
+  width: 125px;
+  height: 400px;
+  text-align: center;
+  border: #333 thin solid;
+}
+aside.left {
+  float: left;
+}
+aside.right {
+  float: right;
+}
+.flex-container-column {
+  display: flex;
+  flex-direction: column;
+}
+.item-2 {
+  width: 125px;
+  height: 500px;
+  text-align: left;
+  border: #333 thin solid;
+}
+.section-center {
+  width: 78%;
+  margin-left: auto;
+  margin-right: auto;
+  border: #333 thin solid;
+  border-radius: 20px;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  border: #333;
+}
+.item-3 {
+  width: 600px;
+  height: 350px;
+  text-align: center;
+  border: #333 thin solid;
+  border-radius: 20px;
+  align-items: center;
+}
+footer.pad {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+.picture {
+  width: 450px;
+  height: 350px;
+}
+.bg-size {
+  background: url("https://images.cdn2.stockunlimited.net/preview1300/galaxy-background-design_2001748.jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.hiya {
+  width: 300px;
+  height: 300px;
+  align-items: center;
+}
+
+@media (min-width: 1200px){
+  .header-controller {
+    background-image: radial-gradient(rgb(0, 151, 111),rgb(10, 253, 147),rgb(255, 255, 255) );
+    width: 1450px; 
+    margin: 0px auto;
+    padding-left: 0px;
+  }
+  }
+.text-all{
+  text-align: center;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: rgba(0, 255, 170, 0.6);
+    color: rgb(255, 255, 255);
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .topnav-right {
+    float: right;
+  }
+
+  .nav{
+    padding:20px;
+  }
+
